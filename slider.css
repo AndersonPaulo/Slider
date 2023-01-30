@@ -34,31 +34,38 @@ h3{
     flex-wrap: wrap;
     margin-top: 45px;
     margin-right: 500px;
-
+    
 }
 li{
     list-style-type: none;
+    
 
 }
 input{
+    display: none;
+   
+}
+ul label {
     display: block;
     position: absolute;
+    background-color: rgb(0, 0, 0);
     height: 22px;
     width: 22px;
     cursor: pointer;
     transition: 400ms;
-    z-index: 5;
     margin-top: 200px;
+    z-index: 5;
 }
 
-ul li:nth-child(1) input{
-    left:400px
+
+ul li:nth-child(1) label{
+    left:400px;
 }
-ul li:nth-child(2) input{
-    left:450px
+ul li:nth-child(2) label{
+    left:450px;
 }
-ul li:nth-child(3) input{
-    left:500px
+ul li:nth-child(3) label{
+    left:500px;
 }
 
 img{
